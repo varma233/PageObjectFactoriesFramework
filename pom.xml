@@ -6,6 +6,11 @@
 	<artifactId>PageObjectFactoriesFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<maven.java.compile>1.8</maven.java.compile>
+		<maven.java.target>1.8</maven.java.target>
+	</properties>
+
 	<dependencies>
 		<!-- SELENIUM JAVA -->
 		<dependency>
