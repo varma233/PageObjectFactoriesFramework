@@ -3,7 +3,7 @@ package com.expedia.india.pages.locators;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePageLocators{
+public class HomePageLocators{  
 
 	// TABS
 	@FindBy(css = "#tab-flight-tab-hp")

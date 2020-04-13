@@ -7,7 +7,7 @@ import com.expedia.india.pages.locators.HomePageLocators;
 
 public class HomePage extends Page{
 	
-	public HomePageLocators home;
+	public HomePageLocators home;  
 	
 	public HomePage() {
 		this.home = new HomePageLocators();
