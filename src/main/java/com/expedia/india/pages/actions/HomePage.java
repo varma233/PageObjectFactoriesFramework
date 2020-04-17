@@ -42,12 +42,10 @@ public class HomePage extends Page{
 	
 	public void bookFlight(String flyingFrom, String goingTo, String Departing, String Returning, String Travellers) throws InterruptedException{
 		home.flyingfrom.sendKeys(flyingFrom);
-		home.goingto.sendKeys(goingTo);
-		home.departing.sendKeys(Departing);
-		home.returning.clear();
-		home.returning.sendKeys(Returning);
-		home.travellers.sendKeys(Travellers);
-		Thread.sleep(2000);
+		home.goingto.sendKeys(goingTo);	
+		selectDate(home.departing, Departing);
+		selectDate(home.returning, Returning);
+		selectTravellers(home.travellers, Travellers, "Adults");
 		home.searchFlights.click();
 	}
 

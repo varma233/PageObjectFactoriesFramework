@@ -8,6 +8,6 @@ public class Test {
 	public static void main(String[] args) throws InterruptedException {
 		Page.initConfiguration();
 		HomePage home = new HomePage();
-		home.gotoFlights().bookFlight("MAA", "DEL", "01/06/2020", "01/08/2020", "2");
+		home.gotoFlights().bookFlight("MAA", "DEL", "06/01/2020", "01/01/2021", "3");
 	}
 }
