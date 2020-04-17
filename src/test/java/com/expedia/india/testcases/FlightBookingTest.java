@@ -10,7 +10,7 @@ public class FlightBookingTest extends BaseTest{
 	@Test
 	public void flightBookingTest() throws InterruptedException {
 		HomePage home = new HomePage();
-		home.gotoFlights().bookFlight("MAA", "DEL", "01/06/2020", "01/08/2020", "2");
+		home.gotoFlights().bookFlight("MAA", "DEL", "06/01/2020", "10/02/2021", "3");
 	}
 
 }
